@@ -1,0 +1,103 @@
+body {
+	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+	font-family: "Work Sans", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-family: "Ubuntu", sans-serif;
+}
+
+nav {
+	display: inline-flex;
+	background-color: black;
+	justify-content: center;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	padding: 0 10%;
+	list-style: none;
+}
+
+nav ul li a {
+	font-size: 16px;
+	padding: 0 15px;
+	color: ghostwhite;
+	transition: 0.2s;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	transition: .02s;
+	color: yellow;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding 0 15px
+}
+
+.hero {
+	padding-top: 130px;
+}
+
+.hero img {
+	border-style: none;
+	border-radius: 50%;
+	margin: 0 auto;
+	max-width: 440px;
+	max-height: 440px;
+	display: block;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 24px;
+	margin: 30px 0px 100px;
+}
+
+.aboutme {
+	width: 90%;
+	max-width: 1200px;
+	height: auto;
+	background-color: ghostwhite;
+	text-align: center;
+	padding: 40px 50px 70px;
+	margin: 0 auto;
+	box-shadow: 10px 10px 0px rgb(0, 0, 0), -10px -10px 0px rgb(255, 114, 114);
+}
+
+.aboutme-section {
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: wrap;
+}
+
+.aboutme-image {
+	height: 450px;
+	width: 400px;
+	background-image: url("Andrew self portrait.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.aboutme-text {
+	height: auto;
+	width: 40%;
+	margin-left: 40px;
+	text-align: left;
+}

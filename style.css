@@ -1,6 +1,7 @@
 body {
 	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 	font-family: "Work Sans", sans-serif;
+	margin: 0 auto;
 }
 
 a {
@@ -15,7 +16,6 @@ nav {
 	display: inline-flex;
 	background-color: black;
 	justify-content: center;
-	position: fixed;
 	width: 100%;
 	z-index: 1;
 }
@@ -37,7 +37,7 @@ nav ul li a {
 
 nav ul li a:hover {
 	transition: .02s;
-	color: yellow;
+	color: lightblue;
 }
 
 .container {
@@ -49,7 +49,7 @@ nav ul li a:hover {
 }
 
 .hero {
-	padding-top: 130px;
+	padding-top: 50px;
 }
 
 .hero img {
@@ -66,6 +66,10 @@ h1 {
 	text-align: center;
 	font-size: 24px;
 	margin: 30px 0px 100px;
+}
+
+h2 {
+	font-weight: bold !important;
 }
 
 .aboutme {
@@ -98,8 +102,12 @@ h1 {
 .aboutme-text {
 	height: auto;
 	width: 40%;
-	margin-left: 40px;
+	margin: 5px 5px 5px 5px;
 	text-align: left;
+}
+
+.aboutme-text ul li a {
+	text-decoration: none;
 }
 
 #projects {
@@ -119,39 +127,6 @@ h1 {
 
 #projects h2 {
 	color: white;
-}
-
-.earth-project {
-	width: 400px;
-	height: 400px;
-	background: white;
-	position: relative;
-	border-radius: 10px;
-	background-image: url("The_Blue_Marble.jpg");
-	margin: 20px;
-	background-size: cover;
-	background-position: center;
-}
-
-.text {
-	position: absolute;
-	height: 20px;
-	left: 0;
-	bottom: 0;
-	z-index: 2;
-	background-color: white;
-	overflow: hidden;
-	transition: 0.2s;
-	padding: 20px;
-}
-
-.text:hover {
-	height: 175px;
-	transition: 0.3s;
-}
-
-.text h3 {
-	margin-top: 3px;
 }
 
 .content {
@@ -213,7 +188,7 @@ h1 {
 }
 
 .contact-details input {
-	width: 200px;
+	width: 250px;
 	border-radius: 5px;
 	border: 0px;
 	padding: 15px 20px;
